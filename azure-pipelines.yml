@@ -17,7 +17,7 @@ variables:
 steps:
 - task: NuGetToolInstaller@1
 
-- script: 'echo "$(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
+- script: 'echo "$(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)"'
   displayName: 'Write build info'
 
 - task: NuGetCommand@2
