@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Simple_App_For_Azure
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -55,22 +55,22 @@ namespace Simple_App_For_Azure
             Console.Write("Press any key to exit ");
             Console.ReadKey();
         }
-        static double Addition(double numberOne, double numberTwo)
+        public static double Addition(double numberOne, double numberTwo)
         {
             double result = numberOne + numberTwo;
             return result;
         }
-        static double Subtraction(double numberOne, double numberTwo)
+        public static double Subtraction(double numberOne, double numberTwo)
         {
             double result = numberOne - numberTwo;
             return result;
         }
-        static double Multiplication(double numberOne, double numberTwo)
+        public static double Multiplication(double numberOne, double numberTwo)
         {
             double result = numberOne * numberTwo;
             return result;
         }
-        static double Division(double numberOne, double numberTwo)
+        public static double Division(double numberOne, double numberTwo)
         {
             if (numberOne != 0 && numberTwo != 0)
             {
